@@ -1,5 +1,5 @@
 import sys
-from cx_Freeze import setup, Executable
+from cx_Freeze import setup, Executable # type: ignore
 # Dependencies are automatically detected, but it might need fine tuning.
 build_exe_options = {
 
